@@ -2,28 +2,35 @@
 title: "230620_MISSING_MIGRANTS_PROJECT"
 author: "Robbe Van Molle"
 date: "2023-06-20"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
 ---
 
-```{r}
+```{r echo=FALSE, warning=FALSE, message=FALSE}
 # Zorg ervoor dat je eerst de benodigde libraries hebt geladen
 library(tidyverse)
 library(lubridate)
+library(treemap)
+library(readr)
+
 
 
 ```
 
+## De voledige dataset kan je ook in de excel terug vinden
 
-
-```{r}
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+DATA <- read_csv("../DATA/230620_MISSING_MIGRANTS_PROJECT_DATA_3.csv")
 
 # Lees de data in
-data <- X230620_MISSING_MIGRANTS_PROJECT_DATA_3
+data <- DATA
 
 # Controleer de structuur van de data om te begrijpen hoe de datum is opgeslagen
-str(data)
+#str(data)
 
-print(names(data))
+#print(names(data))
 
 data$Aantal_doden <- as.numeric(as.character(data$Aantal_doden))
 data$Minimaal_geschat_aantal_vermisten <- as.numeric(as.character(data$Minimaal_geschat_aantal_vermisten))
@@ -38,15 +45,19 @@ data$Aantal_doden <- as.numeric(as.character(data$Aantal_doden))
 
 
 data
-
-str(data$Aantal_doden)
-summary(data)
-
 ```
 
 
+## Statistieke samenvatting van elke kolom
 
-```{r}
+```{r echo=FALSE}
+#str(data$Aantal_doden)
+summary(data)
+```
+
+## let wel op er zijn 16 doden en vermisten zonder datum deze worden hier ook niet weergegeven
+
+```{r echo=FALSE, warning=FALSE}
 
 # Pas de volgende lijn aan op basis van hoe de datum in je data is opgeslagen
 # Bijvoorbeeld als de datum is opgeslagen als "Jaar-Maand-Dag" (2023-06-20), gebruik dan
@@ -61,6 +72,11 @@ data_year <- data %>%
   group_by(Incident_jaar) %>%
   summarise(Deaths = sum(Totaal_aantal_doden_en_vermisten, na.rm = TRUE))
 
+data_year <- data_year %>% slice(-11)
+
+summary(data_year)
+
+
 # Plot het Totaal aantal doden en vermisten per jaar
 ggplot(data_year, aes(x = Incident_jaar, y = Deaths)) +
   geom_bar(stat="identity", fill="steelblue") +
@@ -70,10 +86,9 @@ ggplot(data_year, aes(x = Incident_jaar, y = Deaths)) +
        y = "Totaal aantal doden en vermisten")
 
 ```
+## let wel op er zijn 16 doden en vermisten zonder datum deze worden hier ook niet weergegeven
 
-```{r}
-# Eerst, laad de lubridate package
-library(lubridate)
+```{r echo=FALSE, warning=FALSE}
 
 # Dan, maak een nieuwe kolom voor de maand
 # Laten we aannemen dat "Website_datum" je datumkolom is
@@ -97,11 +112,12 @@ ggplot(data_month, aes(x = Gerapporteerde_maand, y = Deaths)) +
 
 ```
 
-```{r}
+```{r echo=FALSE, warning=FALSE}
 # Groepeer data op jaar en maand en bereken het totaal Totaal aantal doden en vermisten per maand
 data_year_month <- data %>%
   group_by(Incident_jaar, Gerapporteerde_maand) %>%
   summarise(Deaths = sum(Totaal_aantal_doden_en_vermisten, na.rm = TRUE))
+
 
 # Plot het Totaal aantal doden en vermisten per jaar en per maand
 ggplot(data_year_month, aes(fill=Gerapporteerde_maand, y=Deaths, x=factor(Incident_jaar))) + 
@@ -115,7 +131,7 @@ ggplot(data_year_month, aes(fill=Gerapporteerde_maand, y=Deaths, x=factor(Incide
 
 
 
-```{r}
+```{r echo=FALSE, warning=FALSE}
 # Groepeer data op jaar en maand en bereken het totaal Totaal aantal doden en vermisten per maand
 data_year_month <- data %>%
   group_by(Incident_jaar, Gerapporteerde_maand) %>%
@@ -138,7 +154,7 @@ ggplot(data_year_month, aes(x = Gerapporteerde_maand, y = Deaths, group = Incide
 
 
 
-```{r}
+```{r echo=FALSE, warning=FALSE}
 data$Website_datum <- ymd(data$Website_datum)
 
 
@@ -155,9 +171,29 @@ ggplot(data_day, aes(x = Website_datum, y = Deaths)) +
        y = "Totaal aantal doden en vermisten")
 ```
 
+## dit is de lijst van alle incidents boven de 250 doden en vermisten les zeker de artikels die vind je onde de kolom URL
+```{r echo=FALSE, warning=FALSE}
+library(dplyr)
+
+gefilterd_df <- data %>%
+  filter(Totaal_aantal_doden_en_vermisten >= 250) %>%
+  select(URL, Website_datum, Regio_van_het_Incident, Totaal_aantal_doden_en_vermisten, Aantal_doden, Minimaal_geschat_aantal_vermisten, Informatiebron)
+
+gefilterd_df
+```
+
+```{r echo=FALSE, warning=FALSE}
+# Treemap
+treemap(data,
+        index = "Regio_van_het_Incident",
+        vSize = "Totaal_aantal_doden_en_vermisten",
+        type = "index"
+)
+
+```
 
 
-```{r}
+```{r echo=FALSE, warning=FALSE}
 # Zorg ervoor dat LAT en LOG kolommen numeriek zijn
 data$LAT <- as.numeric(gsub(",", ".", data$LAT))
 data$LOG <- as.numeric(gsub(",", ".", data$LOG))
@@ -176,9 +212,18 @@ ggplot() +
        y = "Breedtegraad")
 
 ```
+```{r echo=FALSE, warning=FALSE}
+ggplot() +
+  geom_polygon(data = world_map, aes(x=long, y = lat, group = group), fill = "white", color = "#BBBBBB") +
+  geom_point(data = data, aes(x = LOG, y = LAT, size = Aantal_doden + Minimaal_geschat_aantal_vermisten), color = "red", alpha = 0.5) +
+  scale_size_continuous(range = c(1, 8)) +
+  labs(title = "Incidenten wereldwijd van 2023",
+       x = "Lengtegraad", 
+       y = "Breedtegraad",
+       size = "Aantal doden en vermisten")
+```
 
-
-```{r}
+```{r echo=FALSE, warning=FALSE}
 data_2023 <- data %>%
   filter(Incident_jaar == 2023)
 
@@ -193,7 +238,7 @@ ggplot() +
 ```
 
 
-```{r}
+```{r echo=FALSE, warning=FALSE}
 ggplot() +
   geom_polygon(data = world_map, aes(x=long, y = lat, group = group), fill = "white", color = "#BBBBBB") +
   geom_point(data = data_2023, aes(x = LOG, y = LAT, size = Aantal_doden + Minimaal_geschat_aantal_vermisten), color = "red", alpha = 0.5) +
@@ -203,26 +248,3 @@ ggplot() +
        y = "Breedtegraad",
        size = "Aantal doden en vermisten")
 ```
-
-```{r}
-# Zet de waarden om naar numeriek
-data_2023$LOG <- as.numeric(gsub(",", ".", data_2023$LOG))
-data_2023$LAT <- as.numeric(gsub(",", ".", data_2023$LAT))
-
-# Plot de wereldkaart met de heatmap
-ggplot(data_2023, aes(x = LOG, y = LAT)) +
-  geom_polygon(data = world_map, aes(x=long, y = lat, group = group), fill = "white", color = "#BBBBBB") +
-  geom_density2d_filled(aes(fill = ..level..), alpha = 0.6) +
-  labs(title = "Heatmap van incidenten wereldwijd in 2023",
-       x = "Lengtegraad", 
-       y = "Breedtegraad",
-       fill = "Dichtheid van incidenten") +
-  scale_fill_gradient(low = "blue", high = "red")
-
-
-
-
-```
-
-
-

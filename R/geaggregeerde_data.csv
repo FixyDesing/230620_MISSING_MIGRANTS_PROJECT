@@ -1,0 +1,495 @@
+"Country_of_Origin","Regio_van_het_Incident","Aantal_doden"
+"Cameroon,Unknown","Cara�ben",4
+"Colombia,Dominican Republic,Unknown","Cara�ben",5
+"Cuba","Cara�ben",66
+"Cuba,Dominican Republic","Cara�ben",1
+"Dominican Republic","Cara�ben",47
+"Haiti","Cara�ben",222
+"Unknown","Cara�ben",11
+"Venezuela (Bolivarian Republic of)","Cara�ben",31
+"Uzbekistan","Centraal-Azi�",52
+"Angola","Centraal Amerika",1
+"Belize","Centraal Amerika",1
+"Brazil","Centraal Amerika",4
+"Brazil,Venezuela (Bolivarian Republic of)","Centraal Amerika",2
+"Cameroon","Centraal Amerika",7
+"China","Centraal Amerika",1
+"Colombia","Centraal Amerika",9
+"Colombia,El Salvador,Guatemala,Honduras,Unknown,Venezuela (Bolivarian Republic of)","Centraal Amerika",40
+"Colombia,Mixed,Venezuela (Bolivarian Republic of)","Centraal Amerika",2
+"Colombia,Unknown","Centraal Amerika",15
+"Colombia,Venezuela (Bolivarian Republic of)","Centraal Amerika",3
+"Congo","Centraal Amerika",2
+"Cuba","Centraal Amerika",56
+"Cuba,Ecuador,Mixed,Venezuela (Bolivarian Republic of)","Centraal Amerika",8
+"Cuba,Unknown","Centraal Amerika",4
+"Democratic Republic of the Congo","Centraal Amerika",1
+"Dominican Republic","Centraal Amerika",5
+"Dominican Republic,Ecuador,Guatemala,Unknown","Centraal Amerika",56
+"Ecuador","Centraal Amerika",46
+"Ecuador,Guatemala","Centraal Amerika",6
+"El Salvador","Centraal Amerika",149
+"El Salvador,Guatemala","Centraal Amerika",11
+"El Salvador,Guatemala,Honduras","Centraal Amerika",6
+"El Salvador,Guatemala,Mexico,Nicaragua","Centraal Amerika",4
+"El Salvador,Honduras","Centraal Amerika",4
+"El Salvador,Mexico","Centraal Amerika",3
+"Ghana","Centraal Amerika",5
+"Guatemala","Centraal Amerika",172
+"Guatemala,Honduras","Centraal Amerika",6
+"Guatemala,Honduras,Unknown","Centraal Amerika",14
+"Guatemala,Mexico,Unknown","Centraal Amerika",19
+"Guinea","Centraal Amerika",6
+"Haiti","Centraal Amerika",42
+"Honduras","Centraal Amerika",272
+"Honduras,Mexico","Centraal Amerika",10
+"Honduras,Mexico,Unknown","Centraal Amerika",5
+"Honduras,Unknown","Centraal Amerika",11
+"India","Centraal Amerika",4
+"Jamaica","Centraal Amerika",1
+"Mauritania","Centraal Amerika",1
+"Mexico","Centraal Amerika",146
+"Mexico,Unknown","Centraal Amerika",5
+"Mixed","Centraal Amerika",41
+"Nepal","Centraal Amerika",1
+"Nicaragua","Centraal Amerika",49
+"Nicaragua,Unknown","Centraal Amerika",6
+"Nicaragua,Venezuela (Bolivarian Republic of)","Centraal Amerika",16
+"Paraguay","Centraal Amerika",1
+"Peru","Centraal Amerika",3
+"Senegal","Centraal Amerika",1
+"Ukraine","Centraal Amerika",1
+"Unknown","Centraal Amerika",662
+"Unknown,Venezuela (Bolivarian Republic of)","Centraal Amerika",6
+"Uruguay","Centraal Amerika",1
+"Uzbekistan","Centraal Amerika",1
+"Venezuela (Bolivarian Republic of)","Centraal Amerika",64
+"Afghanistan","Europa",111
+"Afghanistan,Egypt,Ethiopia,Iran (Islamic Republic of),Iraq,Viet Nam","Europa",26
+"Afghanistan,Iran (Islamic Republic of)","Europa",2
+"Afghanistan,Iraq,Syrian Arab Republic,Unknown","Europa",71
+"Afghanistan,Pakistan","Europa",9
+"Afghanistan,Unknown","Europa",4
+"Albania","Europa",1
+"Algeria","Europa",14
+"Bangladesh","Europa",9
+"Bangladesh,Pakistan","Europa",7
+"Chad","Europa",1
+"Congo","Europa",1
+"C�te d'Ivoire","Europa",3
+"Democratic Republic of the Congo","Europa",2
+"Democratic Republic of the Congo,Unknown","Europa",2
+"Egypt","Europa",5
+"Egypt,Pakistan","Europa",6
+"Egypt,Syrian Arab Republic","Europa",3
+"Egypt,Syrian Arab Republic,T�rkiye","Europa",3
+"Egypt,Unknown","Europa",2
+"Eritrea","Europa",28
+"Ethiopia","Europa",15
+"Gambia","Europa",2
+"Georgia","Europa",3
+"Guinea","Europa",6
+"India","Europa",1
+"Iran (Islamic Republic of)","Europa",16
+"Iraq","Europa",40
+"Iraq,Syrian Arab Republic","Europa",2
+"Iraq,Syrian Arab Republic,Unknown","Europa",5
+"Israel","Europa",1
+"Kenya","Europa",1
+"Kyrgyzstan","Europa",14
+"Libya","Europa",1
+"Libya,Unknown","Europa",2
+"Mali","Europa",3
+"Mixed/Unknown","Europa",2
+"Morocco","Europa",20
+"Mozambique","Europa",1
+"Nigeria","Europa",6
+"Pakistan","Europa",30
+"Pakistan,Unknown","Europa",2
+"Palestinian Territories","Europa",1
+"Republic of Moldova,Syrian Arab Republic","Europa",2
+"Senegal","Europa",2
+"Sierra Leone","Europa",1
+"Somalia","Europa",2
+"Sri Lanka","Europa",4
+"State of Palestine","Europa",3
+"Sudan","Europa",27
+"Syrian Arab Republic","Europa",78
+"Togo","Europa",2
+"T�rkiye","Europa",3
+"Tunisia","Europa",2
+"Ukraine","Europa",11
+"Unknown","Europa",289
+"Viet Nam","Europa",39
+"Yemen","Europa",5
+"Afghanistan","Middellandse Zee",92
+"Afghanistan,Iraq,Somalia,Syrian Arab Republic,Unknown","Middellandse Zee",12
+"Afghanistan,Iraq,Syrian Arab Republic","Middellandse Zee",43
+"Afghanistan,Iraq,Unknown","Middellandse Zee",24
+"Afghanistan,Pakistan","Middellandse Zee",7
+"Afghanistan,Pakistan,State of Palestine,Tunisia,Unknown","Middellandse Zee",86
+"Afghanistan,Syrian Arab Republic","Middellandse Zee",15
+"Afghanistan,Syrian Arab Republic,Unknown","Middellandse Zee",15
+"Afghanistan,Unknown","Middellandse Zee",7
+"Algeria","Middellandse Zee",184
+"Algeria,Bangladesh,C�te d'Ivoire,Egypt,Eritrea,Gambia,Ghana,Guinea,Mali,Niger,Sierra Leone,Somalia,Sudan,Syrian Arab Republic,Tunisia,Zambia","Middellandse Zee",750
+"Algeria,Benin,Mali,Morocco,Niger,Unknown","Middellandse Zee",3
+"Algeria,Eritrea,Libya,Morocco,Nigeria,Unknown","Middellandse Zee",5
+"Algeria,Iraq,Syrian Arab Republic","Middellandse Zee",36
+"Algeria,Syrian Arab Republic","Middellandse Zee",2
+"Algeria,Tunisia,Unknown","Middellandse Zee",4
+"Algeria,Unknown","Middellandse Zee",7
+"Bangladesh","Middellandse Zee",38
+"Bangladesh,Egypt,Guinea,Pakistan","Middellandse Zee",1
+"Bangladesh,Egypt,Morocco,Unknown","Middellandse Zee",4
+"Bangladesh,Egypt,Nepal,Sudan,Syrian Arab Republic","Middellandse Zee",14
+"Bangladesh,Egypt,Syrian Arab Republic","Middellandse Zee",16
+"Bangladesh,Pakistan,Unknown","Middellandse Zee",49
+"Bangladesh,Senegal,Unknown","Middellandse Zee",7
+"Bangladesh,Sudan,Unknown","Middellandse Zee",51
+"Bangladesh,Syrian Arab Republic,Unknown","Middellandse Zee",111
+"Bangladesh,Unknown","Middellandse Zee",6
+"Burkina Faso","Middellandse Zee",2
+"Burkina Faso,Cameroon,Central African Republic,C�te d'Ivoire,Mali","Middellandse Zee",1
+"Cameroon","Middellandse Zee",3
+"Cameroon,Congo,Syrian Arab Republic,T�rkiye","Middellandse Zee",16
+"Cameroon,C�te d'Ivoire","Middellandse Zee",3
+"Cameroon,C�te d'Ivoire,Democratic Republic of the Congo,Tunisia","Middellandse Zee",8
+"Cameroon,C�te d'Ivoire,Gambia,Guinea,Togo","Middellandse Zee",1
+"Cameroon,C�te d'Ivoire,Ghana,Guinea,Mali,Nigeria,Senegal,Togo,Unknown","Middellandse Zee",4
+"Cameroon,C�te d'Ivoire,Guinea,Mali,Nigeria,Sierra Leone","Middellandse Zee",8
+"Cameroon,C�te d'Ivoire,Senegal","Middellandse Zee",7
+"Cameroon,Ghana","Middellandse Zee",4
+"Cameroon,Ghana,Nigeria,Somalia,Sudan","Middellandse Zee",9
+"Cameroon,Guinea","Middellandse Zee",4
+"Cameroon,Guinea,Unknown","Middellandse Zee",2
+"Cameroon,Nigeria","Middellandse Zee",4
+"Cameroon,Somalia,Syrian Arab Republic","Middellandse Zee",45
+"Cameroon,Unknown","Middellandse Zee",21
+"Central African Republic","Middellandse Zee",4
+"Chad","Middellandse Zee",5
+"Chad,Egypt,Nigeria,Sudan","Middellandse Zee",6
+"Chad,Sudan","Middellandse Zee",2
+"Chad,Unknown","Middellandse Zee",2
+"Comoros,Egypt,Eritrea,Ethiopia,Sudan","Middellandse Zee",10
+"Congo,Guinea","Middellandse Zee",7
+"Congo,Morocco,Unknown","Middellandse Zee",8
+"C�te d'Ivoire","Middellandse Zee",38
+"C�te d'Ivoire,Egypt,Sudan,Tunisia","Middellandse Zee",1
+"C�te d'Ivoire,Eritrea,Gambia,Nigeria,Somalia,South Sudan","Middellandse Zee",133
+"C�te d'Ivoire,Eritrea,Guinea,Libya,Mali,Palestinian Territories,Somalia,Sudan,Syrian Arab Republic","Middellandse Zee",18
+"C�te d'Ivoire,Gambia,Ghana,Guinea,Nigeria,Togo","Middellandse Zee",1
+"C�te d'Ivoire,Gambia,Ghana,Guinea,Senegal","Middellandse Zee",10
+"C�te d'Ivoire,Gambia,Mali,Unknown","Middellandse Zee",3
+"C�te d'Ivoire,Guinea,Mali","Middellandse Zee",21
+"C�te d'Ivoire,Guinea,Mali,Mauritania,Senegal","Middellandse Zee",29
+"C�te d'Ivoire,Guinea,Mali,Nigeria,Sudan","Middellandse Zee",2
+"C�te d'Ivoire,Guinea,Nigeria,Unknown","Middellandse Zee",4
+"C�te d'Ivoire,Sudan,Unknown","Middellandse Zee",5
+"C�te d'Ivoire,Tunisia,Unknown","Middellandse Zee",84
+"C�te d'Ivoire,Unknown","Middellandse Zee",101
+"Democratic Republic of the Congo","Middellandse Zee",5
+"Democratic Republic of the Congo,Liberia,Somalia","Middellandse Zee",4
+"Democratic Republic of the Congo,Unknown","Middellandse Zee",1
+"Egypt","Middellandse Zee",32
+"Egypt,Eritrea,Sudan,Syrian Arab Republic","Middellandse Zee",204
+"Egypt,Ethiopia,Somalia,Sudan,Syrian Arab Republic","Middellandse Zee",0
+"Egypt,Gambia","Middellandse Zee",2
+"Egypt,Mixed","Middellandse Zee",1
+"Egypt,Mixed,Sudan","Middellandse Zee",11
+"Egypt,Mixed,Syrian Arab Republic,Unknown","Middellandse Zee",4
+"Egypt,Pakistan,Syrian Arab Republic,Unknown","Middellandse Zee",13
+"Egypt,Pakistan,Unknown","Middellandse Zee",6
+"Egypt,Palestinian Territories,Sudan,Syrian Arab Republic","Middellandse Zee",3
+"Egypt,Palestinian Territories,Unknown","Middellandse Zee",17
+"Egypt,State of Palestine,Syrian Arab Republic","Middellandse Zee",15
+"Egypt,Syrian Arab Republic","Middellandse Zee",2
+"Egypt,Unknown","Middellandse Zee",21
+"Eritrea","Middellandse Zee",12
+"Eritrea,Ethiopia","Middellandse Zee",6
+"Eritrea,Ethiopia,Somalia","Middellandse Zee",4
+"Eritrea,Somalia","Middellandse Zee",3
+"Eritrea,Sudan","Middellandse Zee",75
+"Eritrea,Sudan,Unknown","Middellandse Zee",10
+"Eritrea,Syrian Arab Republic","Middellandse Zee",3
+"Eritrea,Syrian Arab Republic,Unknown","Middellandse Zee",12
+"Eritrea,Unknown","Middellandse Zee",1
+"Ethiopia","Middellandse Zee",10
+"Ethiopia,Ghana,Nigeria,Syrian Arab Republic,Unknown","Middellandse Zee",3
+"Gambia","Middellandse Zee",2
+"Gambia,Guinea-Bissau","Middellandse Zee",3
+"Gambia,Guinea,Nigeria,Senegal","Middellandse Zee",1
+"Gambia,Mali,Nigeria,Senegal,Unknown","Middellandse Zee",10
+"Gambia,Unknown","Middellandse Zee",1
+"Ghana","Middellandse Zee",1
+"Ghana,Guinea,Senegal","Middellandse Zee",5
+"Guinea","Middellandse Zee",20
+"Guinea,Mali","Middellandse Zee",3
+"Guinea,Mali,Senegal","Middellandse Zee",97
+"Guinea,Mexico,Sudan","Middellandse Zee",1
+"Guinea,Unknown","Middellandse Zee",3
+"Iran (Islamic Republic of)","Middellandse Zee",1
+"Iran (Islamic Republic of),Iraq","Middellandse Zee",7
+"Iran (Islamic Republic of),Syrian Arab Republic","Middellandse Zee",7
+"Iraq","Middellandse Zee",76
+"Iraq,Syrian Arab Republic","Middellandse Zee",59
+"Iraq,Syrian Arab Republic,Unknown","Middellandse Zee",9
+"Iraq,T�rkiye","Middellandse Zee",2
+"Iraq,Unknown","Middellandse Zee",24
+"Lebanon","Middellandse Zee",12
+"Lebanon,State of Palestine,Syrian Arab Republic","Middellandse Zee",7
+"Liberia","Middellandse Zee",2
+"Liberia,Unknown","Middellandse Zee",18
+"Libya","Middellandse Zee",3
+"Libya,Morocco,Syrian Arab Republic","Middellandse Zee",30
+"Libya,Morocco,Unknown","Middellandse Zee",1
+"Libya,Pakistan,Unknown","Middellandse Zee",14
+"Libya,Syrian Arab Republic","Middellandse Zee",3
+"Libya,Syrian Arab Republic,Unknown","Middellandse Zee",6
+"Libya,Tunisia","Middellandse Zee",2
+"Mali","Middellandse Zee",13
+"Mali,Nigeria,Senegal,Unknown","Middellandse Zee",5
+"Mali,Senegal","Middellandse Zee",1
+"Mali,Senegal,Unknown","Middellandse Zee",4
+"Mali,Sudan","Middellandse Zee",1
+"Mali,Unknown","Middellandse Zee",28
+"Mixed","Middellandse Zee",220
+"Mixed,Syrian Arab Republic","Middellandse Zee",10
+"Mixed,Syrian Arab Republic,Tunisia","Middellandse Zee",25
+"Mixed,Unknown","Middellandse Zee",10
+"Mixed/Unknown","Middellandse Zee",63
+"Mixed/Unknown,Unknown","Middellandse Zee",29
+"Morocco","Middellandse Zee",118
+"Morocco,Somalia,Unknown","Middellandse Zee",16
+"Morocco,Syrian Arab Republic,Unknown","Middellandse Zee",2
+"Morocco,Unknown","Middellandse Zee",33
+"Nigeria","Middellandse Zee",10
+"Nigeria,Somalia,Sudan","Middellandse Zee",1
+"Nigeria,Sudan,Unknown","Middellandse Zee",5
+"Nigeria,Unknown","Middellandse Zee",43
+"Pakistan","Middellandse Zee",2
+"Papua New Guinea","Middellandse Zee",1
+"Senegal","Middellandse Zee",3
+"Senegal,Unknown","Middellandse Zee",9
+"Sierra Leone,Somalia","Middellandse Zee",4
+"Somalia","Middellandse Zee",36
+"Somalia,State of Palestine,Syrian Arab Republic,Yemen","Middellandse Zee",12
+"Somalia,Yemen","Middellandse Zee",3
+"State of Palestine","Middellandse Zee",22
+"Sudan","Middellandse Zee",14
+"Sudan,Tunisia,Unknown","Middellandse Zee",6
+"Sudan,Unknown","Middellandse Zee",5
+"Syrian Arab Republic","Middellandse Zee",310
+"Syrian Arab Republic,Unknown","Middellandse Zee",56
+"T�rkiye","Middellandse Zee",9
+"T�rkiye,Unknown","Middellandse Zee",2
+"Tunisia","Middellandse Zee",120
+"Tunisia,Unknown","Middellandse Zee",143
+"Unknown","Middellandse Zee",5056
+"Yemen","Middellandse Zee",4
+"Chad","Midden-Afrika",7
+"Democratic Republic of the Congo","Midden-Afrika",59
+"Mixed","Midden-Afrika",6
+"Nigeria","Midden-Afrika",1
+"Unknown","Midden-Afrika",134
+"Algeria","Noord-Afrika",2
+"Algeria,Guinea,Mali","Noord-Afrika",16
+"Bangladesh,Mixed","Noord-Afrika",1
+"Bangladesh,Unknown","Noord-Afrika",30
+"Cameroon","Noord-Afrika",2
+"Central African Republic,C�te d'Ivoire,Guinea,Liberia,Mali,Nigeria,Senegal","Noord-Afrika",16
+"Chad","Noord-Afrika",8
+"Chad,Guinea-Bissau,Unknown","Noord-Afrika",7
+"Chad,Libya","Noord-Afrika",20
+"Comoros,Unknown","Noord-Afrika",3
+"C�te d'Ivoire","Noord-Afrika",6
+"C�te d'Ivoire,Guinea,Unknown","Noord-Afrika",36
+"C�te d'Ivoire,Mali,Senegal,Unknown","Noord-Afrika",21
+"C�te d'Ivoire,Mali,Unknown","Noord-Afrika",5
+"C�te d'Ivoire,Unknown","Noord-Afrika",8
+"Egypt","Noord-Afrika",58
+"Egypt,Unknown","Noord-Afrika",48
+"Eritrea","Noord-Afrika",4
+"Eritrea,Ethiopia,Somalia","Noord-Afrika",19
+"Eritrea,Ethiopia,Sudan,Unknown","Noord-Afrika",10
+"Gambia","Noord-Afrika",1
+"Ghana","Noord-Afrika",1
+"Guinea","Noord-Afrika",9
+"Guinea,Mali","Noord-Afrika",2
+"Guinea,Senegal,Unknown","Noord-Afrika",3
+"Guinea,Unknown","Noord-Afrika",2
+"Liberia","Noord-Afrika",1
+"Liberia,Mali","Noord-Afrika",2
+"Libya,Sudan,Unknown","Noord-Afrika",8
+"Mali","Noord-Afrika",6
+"Mauritania","Noord-Afrika",2
+"Mixed","Noord-Afrika",19
+"Mixed/Unknown","Noord-Afrika",14
+"Mixed/Unknown,Morocco","Noord-Afrika",7
+"Mixed/Unknown,Unknown","Noord-Afrika",3
+"Morocco","Noord-Afrika",110
+"Morocco,Unknown","Noord-Afrika",34
+"Niger","Noord-Afrika",68
+"Nigeria","Noord-Afrika",30
+"Senegal","Noord-Afrika",2
+"Sierra Leone","Noord-Afrika",1
+"Somalia","Noord-Afrika",47
+"State of Palestine","Noord-Afrika",1
+"Sudan","Noord-Afrika",89
+"Syrian Arab Republic","Noord-Afrika",15
+"Tunisia","Noord-Afrika",3
+"Unknown","Noord-Afrika",4792
+"Afghanistan","Noord Amerika",1
+"Bangladesh","Noord Amerika",1
+"Brazil","Noord Amerika",3
+"Brazil,Ecuador,Nicaragua,Unknown","Noord Amerika",28
+"Canada,India,Romania","Noord Amerika",8
+"China","Noord Amerika",4
+"Colombia","Noord Amerika",7
+"Costa Rica","Noord Amerika",1
+"Cuba","Noord Amerika",17
+"Cuba,Unknown","Noord Amerika",2
+"Democratic Republic of the Congo","Noord Amerika",1
+"Dominican Republic","Noord Amerika",4
+"Ecuador","Noord Amerika",31
+"Ecuador,Guatemala,Mexico,Unknown","Noord Amerika",10
+"El Salvador","Noord Amerika",63
+"El Salvador,Guatemala,Mexico,Unknown","Noord Amerika",6
+"El Salvador,Honduras,Unknown","Noord Amerika",5
+"El Salvador,Mexico","Noord Amerika",4
+"Ghana","Noord Amerika",1
+"Guatemala","Noord Amerika",228
+"Guatemala,Honduras,Mexico","Noord Amerika",68
+"Guatemala,Mexico","Noord Amerika",5
+"Guatemala,Mexico,Unknown","Noord Amerika",17
+"Guatemala,Unknown","Noord Amerika",8
+"Haiti","Noord Amerika",5
+"Honduras","Noord Amerika",99
+"India","Noord Amerika",6
+"Jamaica","Noord Amerika",1
+"Lesotho","Noord Amerika",1
+"Mexico","Noord Amerika",587
+"Mexico,Unknown","Noord Amerika",16
+"Mexico,Venezuela (Bolivarian Republic of)","Noord Amerika",4
+"Mixed","Noord Amerika",111
+"Mixed/Unknown","Noord Amerika",146
+"Nicaragua","Noord Amerika",22
+"Peru","Noord Amerika",2
+"Peru,Unknown","Noord Amerika",9
+"Russian Federation","Noord Amerika",1
+"Senegal","Noord Amerika",1
+"Unknown","Noord Amerika",2055
+"Venezuela (Bolivarian Republic of)","Noord Amerika",16
+"Burundi","Oost-Afrika",8
+"Comoros","Oost-Afrika",52
+"Congo","Oost-Afrika",251
+"Democratic Republic of the Congo","Oost-Afrika",10
+"Ethiopia","Oost-Afrika",449
+"Ethiopia,Somalia","Oost-Afrika",66
+"Madagascar","Oost-Afrika",47
+"Malawi","Oost-Afrika",11
+"Mozambique","Oost-Afrika",38
+"Somalia","Oost-Afrika",2
+"Syrian Arab Republic","Oost-Afrika",1
+"Unknown","Oost-Afrika",633
+"Yemen","Oost-Afrika",2
+"Zimbabwe","Oost-Afrika",19
+"Bangladesh","Oost Azi�",1
+"China","Oost Azi�",1
+"Democratic People's Republic of Korea","Oost Azi�",5
+"Republic of Korea","Oost Azi�",1
+"Unknown","Oost Azi�",1
+"Viet Nam","Oost Azi�",12
+"Cameroon","West-Afrika",2
+"Chad","West-Afrika",1
+"C�te d'Ivoire","West-Afrika",1
+"Gambia,Senegal","West-Afrika",8
+"Ghana,Nigeria","West-Afrika",44
+"Guinea","West-Afrika",30
+"Guinea,Mali,Unknown","West-Afrika",4
+"Liberia","West-Afrika",1
+"Libya,Niger","West-Afrika",3
+"Mali","West-Afrika",8
+"Mauritania","West-Afrika",3
+"Mixed/Unknown","West-Afrika",8
+"Niger","West-Afrika",37
+"Niger,Sudan","West-Afrika",7
+"Niger,Sudan,Unknown","West-Afrika",2
+"Niger,Unknown","West-Afrika",34
+"Nigeria","West-Afrika",5
+"Senegal","West-Afrika",30
+"Sierra Leone","West-Afrika",28
+"Sudan","West-Afrika",1
+"Unknown","West-Afrika",1880
+"Afghanistan","West-Azi�",64
+"Afghanistan,Iran (Islamic Republic of),Pakistan","West-Azi�",78
+"Afghanistan,Pakistan","West-Azi�",1
+"Afghanistan,Pakistan,Syrian Arab Republic","West-Azi�",7
+"Afghanistan,Unknown","West-Azi�",5
+"Bangladesh","West-Azi�",3
+"Bangladesh,Somalia,Unknown","West-Azi�",19
+"Congo","West-Azi�",1
+"Ethiopia","West-Azi�",195
+"Ethiopia,Somalia","West-Azi�",48
+"Ethiopia,Somalia,Unknown","West-Azi�",30
+"India,Pakistan","West-Azi�",10
+"Iran (Islamic Republic of)","West-Azi�",1
+"Iraq","West-Azi�",11
+"Mixed","West-Azi�",7
+"Morocco","West-Azi�",3
+"Oman","West-Azi�",1
+"Pakistan","West-Azi�",9
+"Somalia","West-Azi�",9
+"Somalia,Unknown","West-Azi�",3
+"Sri Lanka","West-Azi�",1
+"State of Palestine","West-Azi�",2
+"Sudan","West-Azi�",1
+"Syrian Arab Republic","West-Azi�",317
+"T�rkiye","West-Azi�",9
+"Tunisia","West-Azi�",1
+"Unknown","West-Azi�",1087
+"Comoros","Zuid-Afrika",24
+"Eswatini","Zuid-Afrika",1
+"Ethiopia","Zuid-Afrika",53
+"Lesotho","Zuid-Afrika",6
+"Malawi,Zimbabwe","Zuid-Afrika",14
+"Unknown","Zuid-Afrika",7
+"Zimbabwe","Zuid-Afrika",8
+"Algeria,Egypt,Morocco","Zuid-Amerika",7
+"Argentina,Bolivia (Plurinational State of),Unknown","Zuid-Amerika",2
+"Bolivia (Plurinational State of)","Zuid-Amerika",8
+"Colombia","Zuid-Amerika",6
+"Colombia,Venezuela (Bolivarian Republic of)","Zuid-Amerika",2
+"Cuba","Zuid-Amerika",12
+"Cuba,Haiti,Mixed","Zuid-Amerika",3
+"Cuba,Unknown","Zuid-Amerika",20
+"Dominican Republic","Zuid-Amerika",5
+"Ecuador","Zuid-Amerika",11
+"Guyana","Zuid-Amerika",2
+"Haiti","Zuid-Amerika",55
+"India","Zuid-Amerika",9
+"Nigeria","Zuid-Amerika",1
+"Pakistan,Sierra Leone,Somalia","Zuid-Amerika",9
+"Paraguay","Zuid-Amerika",1
+"Peru","Zuid-Amerika",3
+"Unknown","Zuid-Amerika",32
+"Venezuela (Bolivarian Republic of)","Zuid-Amerika",226
+"Afghanistan","Zuid-Azi�",1911
+"Bangladesh","Zuid-Azi�",2
+"Malaysia","Zuid-Azi�",3
+"Myanmar","Zuid-Azi�",107
+"Nepal","Zuid-Azi�",12
+"Pakistan","Zuid-Azi�",29
+"Sri Lanka","Zuid-Azi�",1
+"Unknown","Zuid-Azi�",207
+"Bangladesh","Zuidoost-Azi�",9
+"Bangladesh,Myanmar","Zuidoost-Azi�",49
+"Cambodia","Zuidoost-Azi�",76
+"China","Zuidoost-Azi�",9
+"Indonesia","Zuidoost-Azi�",200
+"Lao People's Democratic Republic","Zuidoost-Azi�",10
+"Malaysia","Zuidoost-Azi�",54
+"Myanmar","Zuidoost-Azi�",662
+"Myanmar,Viet Nam","Zuidoost-Azi�",8
+"Sri Lanka","Zuidoost-Azi�",1
+"Unknown","Zuidoost-Azi�",239
