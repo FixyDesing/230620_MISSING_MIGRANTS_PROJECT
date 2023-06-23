@@ -40,11 +40,23 @@ data$Aantal_vrouwtjes <- as.numeric(as.character(data$Aantal_vrouwtjes))
 data$Aantal_mannetjes <- as.numeric(as.character(data$Aantal_mannetjes))
 data$Aantal_kinderen <- as.numeric(as.character(data$Aantal_kinderen))
 data$Aantal_doden <- as.numeric(as.character(data$Aantal_doden))
-data$Aantal_doden <- as.numeric(as.character(data$Aantal_doden))
-data$Aantal_doden <- as.numeric(as.character(data$Aantal_doden))
 
+sum(data$Aantal_doden, na.rm = TRUE) + sum(data$Minimaal_geschat_aantal_vermisten, na.rm = TRUE)
 
+View(data)
+
+sum(data$Totaal_aantal_doden_en_vermisten , na.rm = TRUE)
 data
+
+Regio_van_het_Incident <- data %>%
+  group_by(Regio_van_het_Incident) %>%
+  summarise(Deaths = sum(Totaal_aantal_doden_en_vermisten, na.rm = TRUE))
+```
+
+
+```{r}
+summary(data_year)
+
 ```
 
 
@@ -84,6 +96,9 @@ ggplot(data_year, aes(x = Incident_jaar, y = Deaths)) +
   labs(title = "Totaal aantal doden en vermisten per jaar",
        x = "Jaar", 
        y = "Totaal aantal doden en vermisten")
+
+write.csv(data_year, "data_year.csv", row.names = FALSE)
+
 
 ```
 ## let wel op er zijn 16 doden en vermisten zonder datum deze worden hier ook niet weergegeven
@@ -169,7 +184,54 @@ ggplot(data_day, aes(x = Website_datum, y = Deaths)) +
   labs(title = "Totaal aantal doden en vermisten per dag",
        x = "Datum", 
        y = "Totaal aantal doden en vermisten")
+
+write.csv(data_day, "data_day.csv", row.names = FALSE)
 ```
+
+
+
+```{r}
+library(lubridate)
+
+# Converteer de datums naar weekniveau
+data$Week_datum <- floor_date(data$Website_datum, "week")
+
+# Aggregeer de data per week
+data_week <- data %>%
+  group_by(Week_datum) %>%
+  summarise(Deaths = sum(Totaal_aantal_doden_en_vermisten, na.rm = TRUE))
+
+# Maak de lijngrafiek
+ggplot(data_week, aes(x = Week_datum, y = Deaths)) +
+  geom_line() +
+  labs(title = "Totaal aantal doden en vermisten per week",
+       x = "Datum", 
+       y = "Totaal aantal doden en vermisten")
+
+write.csv(data_week, "data_week.csv", row.names = FALSE)
+
+```
+
+```{r}
+library(lubridate)
+
+# Converteer de datums naar maandniveau
+data$Maand_datum <- floor_date(data$Website_datum, "month")
+
+# Aggregeer de data per maand
+data_month <- data %>%
+  group_by(Maand_datum) %>%
+  summarise(Deaths = sum(Totaal_aantal_doden_en_vermisten, na.rm = TRUE))
+
+# Maak de lijngrafiek
+ggplot(data_month, aes(x = Maand_datum, y = Deaths)) +
+  geom_line() +
+  labs(title = "Totaal aantal doden en vermisten per maand",
+       x = "Datum", 
+       y = "Totaal aantal doden en vermisten")
+
+```
+
 
 ## dit is de lijst van alle incidents boven de 250 doden en vermisten les zeker de artikels die vind je onde de kolom URL
 ```{r echo=FALSE, warning=FALSE}
@@ -191,6 +253,17 @@ treemap(data,
 )
 
 ```
+```{r}
+# Aggregeer de data per dag
+Tree <- data %>%
+  group_by(Regio_van_het_Incident) %>%
+  summarise(Deaths = sum(Totaal_aantal_doden_en_vermisten, na.rm = TRUE))
+
+View(Tree)
+write.csv(Tree, "Tree.csv", row.names = FALSE)
+
+
+```
 
 
 ```{r echo=FALSE, warning=FALSE}
@@ -210,17 +283,16 @@ ggplot() +
   labs(title = "Incidenten wereldwijd sins 2014",
        x = "Lengtegraad", 
        y = "Breedtegraad")
-
 ```
 ```{r echo=FALSE, warning=FALSE}
 ggplot() +
   geom_polygon(data = world_map, aes(x=long, y = lat, group = group), fill = "white", color = "#BBBBBB") +
   geom_point(data = data, aes(x = LOG, y = LAT, size = Aantal_doden + Minimaal_geschat_aantal_vermisten), color = "red", alpha = 0.5) +
-  scale_size_continuous(range = c(1, 8)) +
+  scale_size_continuous(range = c(2, 8)) +
   labs(title = "Incidenten wereldwijd van 2023",
        x = "Lengtegraad", 
        y = "Breedtegraad",
-       size = "Aantal doden en vermisten")
+       size = "legende")
 ```
 
 ```{r echo=FALSE, warning=FALSE}
